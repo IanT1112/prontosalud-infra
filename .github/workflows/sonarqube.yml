@@ -24,3 +24,4 @@ jobs:
         with:
           args: >
             -Dsonar.ws.timeout=60
+            -Dsonar.scanner.metadataFilePath=.sonar/report-task.txt
